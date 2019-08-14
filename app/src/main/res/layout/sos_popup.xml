@@ -1,0 +1,86 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:orientation="vertical"
+    android:layout_height="wrap_content">
+<LinearLayout
+        android:id="@+id/card_view"
+        android:layout_width="match_parent"
+        android:gravity="center"
+        android:layout_marginTop="20dp"
+        android:layout_height="wrap_content">
+<LinearLayout
+            android:layout_width="match_parent"
+            android:orientation="vertical"
+            android:layout_height="wrap_content">
+<TextView
+        android:id="@+id/btn_houseTheft"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="House Theft"
+        android:background="@drawable/textview_border"
+        android:textColor="#000000"
+        android:gravity="center"
+        android:textSize="18dp"
+        android:padding="16dp"
+        android:letterSpacing="0.2"/>
+<TextView
+        android:id="@+id/btn_fire"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Fire"
+        android:background="@drawable/textview_border"
+        android:textColor="#000000"
+        android:gravity="center"
+        android:padding="16dp"
+         android:textSize="18dp"
+        android:letterSpacing="0.2"/>
+<TextView
+        android:id="@+id/btn_Accident"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Accident"
+        android:background="@drawable/textview_border"
+        android:textSize="18dp"
+        android:textColor="#000000"
+        android:gravity="center"
+        android:padding="16dp"
+        android:letterSpacing="0.2"/>
+<TextView
+        android:id="@+id/btn_domVolience"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Domestic Voilence"
+        android:background="@drawable/textview_border"
+        android:textColor="#000000"
+        android:gravity="center"
+        android:textSize="18dp"
+        android:padding="16dp"
+        android:letterSpacing="0.2"/>
+<TextView
+        android:id="@+id/btn_other"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Other"
+        android:background="@drawable/textview_border"
+        android:textColor="#000000"
+        android:gravity="center"
+        android:textSize="18dp"
+        android:padding="16dp"
+        android:letterSpacing="0.2"/>
+<TextView
+        android:id="@+id/btn_cancel"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:background="@drawable/button_border"
+        android:text="Cancel"
+        android:textColor="#d9e5f3"
+        android:textStyle="bold"
+        android:gravity="center"
+        android:textSize="20dp"
+        android:padding="16dp"
+        android:letterSpacing="0.2"/>
+        </LinearLayout>
+</LinearLayout>
+</LinearLayout>

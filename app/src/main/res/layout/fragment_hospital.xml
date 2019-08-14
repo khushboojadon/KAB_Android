@@ -1,0 +1,33 @@
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#fff"
+    tools:context="com.example.rajeshchaudhary.haryanapolice.Fragments.HospitalFragment">
+
+    <!-- TODO: Update blank fragment layout -->
+    <android.support.v4.widget.SwipeRefreshLayout
+        xmlns:android="http://schemas.android.com/apk/res/android"
+        android:id="@+id/swipeContainerhospital"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+    <ListView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:id="@+id/lv_hospital"
+        android:listSelector="@android:color/transparent"
+        android:cacheColorHint="@android:color/transparent"
+        android:divider="@null"
+        android:dividerHeight="1dp"
+        />
+    </android.support.v4.widget.SwipeRefreshLayout>
+    <android.support.design.widget.FloatingActionButton
+        android:id="@+id/fab_hospital"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentRight="true"
+        android:layout_alignParentBottom="true"
+        android:layout_margin="@dimen/fab_margin"
+        app:srcCompat="@drawable/ic_action_create" />
+</RelativeLayout>

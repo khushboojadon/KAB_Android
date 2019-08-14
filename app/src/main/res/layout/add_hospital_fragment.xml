@@ -1,0 +1,226 @@
+<?xml version="1.0" encoding="UTF-8"?>
+    <LinearLayout
+    android:weightSum="100"
+    android:background="#fafafa"
+    android:orientation="vertical"
+    android:layout_height="match_parent"
+    android:layout_width="match_parent"
+    xmlns:android="http://schemas.android.com/apk/res/android">
+    <LinearLayout
+    android:orientation="vertical"
+    android:layout_height="0dp"
+    android:layout_width="match_parent"
+        android:layout_weight="85"
+        android:paddingRight="50dp"
+        android:paddingLeft="50dp"
+        android:gravity="center">
+    <LinearLayout
+        android:orientation="horizontal"
+        android:layout_height="wrap_content"
+        android:layout_width="match_parent"
+        android:padding="16dp"
+        android:background="@drawable/edittext_border">
+    <ImageView
+        android:layout_height="20dp"
+        android:layout_width="20dp"
+        android:layout_gravity="center"
+        android:src="@drawable/user1"/>
+    <EditText
+        android:background="#00000000"
+        android:layout_height="wrap_content"
+        android:layout_width="match_parent"
+        android:textColor="@color/textColor"
+        android:inputType="text"
+        android:textSize="20dp"
+        android:letterSpacing="0.1"
+        android:layout_marginLeft="15dp"
+        android:textColorHint="@color/textColor"
+        android:hint="User Id"
+        android:id="@+id/userId"/>
+</LinearLayout>
+        <LinearLayout
+            android:orientation="horizontal"
+            android:layout_height="wrap_content"
+            android:layout_width="match_parent"
+            android:padding="16dp"
+            android:background="@drawable/edittext_border"
+            android:layout_marginTop="5dp">
+    <ImageView
+        android:layout_height="20dp"
+        android:layout_width="20dp"
+        android:layout_gravity="center"
+        android:src="@drawable/user1"/>
+    <EditText
+        android:background="#00000000"
+        android:layout_height="wrap_content"
+        android:layout_width="match_parent"
+        android:textColor="@color/textColor"
+        android:inputType="text"
+        android:textSize="20dp"
+        android:letterSpacing="0.1"
+        android:layout_marginLeft="15dp"
+        android:textColorHint="@color/textColor"
+        android:hint="First Name"
+        android:id="@+id/first_name"/>
+</LinearLayout>
+        <LinearLayout
+            android:orientation="horizontal"
+            android:layout_height="wrap_content"
+            android:layout_width="match_parent"
+            android:padding="16dp"
+            android:background="@drawable/edittext_border"
+            android:layout_marginTop="5dp">
+    <ImageView
+        android:layout_height="20dp"
+        android:layout_width="20dp"
+        android:layout_gravity="center"
+        android:src="@mipmap/mobile"/>
+    <EditText
+        android:background="#00000000"
+        android:layout_height="wrap_content"
+        android:layout_width="match_parent"
+        android:textColor="@color/textColor"
+        android:inputType="number"
+        android:textSize="20dp"
+        android:letterSpacing="0.1"
+        android:maxLength="10"
+        android:layout_marginLeft="15dp"
+        android:textColorHint="@color/textColor"
+        android:hint="Mobile Number"
+        android:id="@+id/mobphone"/>
+</LinearLayout>
+  <LinearLayout
+      android:orientation="horizontal"
+      android:layout_height="wrap_content"
+      android:layout_width="match_parent"
+      android:padding="16dp"
+      android:background="@drawable/edittext_border"
+      android:layout_marginTop="5dp">
+    <ImageView
+        android:layout_height="20dp"
+        android:layout_width="20dp"
+        android:layout_gravity="center"
+        android:src="@mipmap/landline"/>
+    <EditText
+        android:background="#00000000"
+        android:layout_height="wrap_content"
+        android:layout_width="match_parent"
+        android:textColor="@color/textColor"
+        android:inputType="number"
+        android:textSize="20dp"
+        android:letterSpacing="0.1"
+        android:layout_marginLeft="15dp"
+        android:textColorHint="@color/textColor"
+        android:hint="Landline Number"
+        android:id="@+id/phone"/>
+</LinearLayout>
+<LinearLayout
+    android:orientation="horizontal"
+    android:layout_height="wrap_content"
+    android:layout_width="match_parent"
+    android:padding="16dp"
+    android:background="@drawable/edittext_border"
+    android:layout_marginTop="5dp">
+
+    <ImageView
+        android:layout_height="20dp"
+        android:layout_width="20dp"
+        android:layout_gravity="center"
+        android:src="@drawable/password"/>
+
+    <EditText
+        android:background="#00000000"
+        android:layout_height="wrap_content"
+        android:layout_width="match_parent"
+        android:textColor="@color/textColor"
+        android:inputType="number"
+        android:textSize="20dp"
+        android:letterSpacing="0.1"
+        android:layout_marginLeft="15dp"
+        android:textColorHint="@color/textColor"
+        android:hint="Code"
+        android:id="@+id/userCode"
+        android:maxLength="4"/>
+</LinearLayout>
+<LinearLayout
+    android:orientation="horizontal"
+    android:layout_height="wrap_content"
+    android:layout_width="match_parent"
+    android:padding="16dp"
+    android:background="@drawable/edittext_border"
+    android:layout_marginTop="5dp">
+
+    <ImageView
+        android:layout_height="20dp"
+        android:layout_width="20dp"
+        android:layout_gravity="center"
+        android:src="@mipmap/mail"/>
+
+    <EditText
+        android:background="#00000000"
+        android:layout_height="wrap_content"
+        android:layout_width="match_parent"
+        android:textColor="@color/textColor"
+        android:inputType="text"
+        android:textSize="20dp"
+        android:letterSpacing="0.1"
+        android:layout_marginLeft="15dp"
+        android:textColorHint="@color/textColor"
+        android:hint="Address"
+        android:id="@+id/r_address"/>
+
+</LinearLayout>
+        <LinearLayout
+            android:orientation="horizontal"
+            android:layout_height="wrap_content"
+            android:layout_width="match_parent"
+            android:padding="16dp"
+            android:background="@drawable/edittext_border"
+            android:layout_marginTop="5dp">
+    <ImageView
+        android:layout_height="20dp"
+        android:layout_width="20dp"
+        android:layout_gravity="center"
+        android:src="@mipmap/pin"/>
+
+    <EditText
+        android:background="#00000000"
+        android:layout_height="wrap_content"
+        android:layout_width="match_parent"
+        android:textColor="@color/textColor"
+        android:inputType="number"
+        android:textSize="20dp"
+        android:letterSpacing="0.1"
+        android:layout_marginLeft="15dp"
+        android:textColorHint="@color/textColor"
+        android:hint="Pincode"
+        android:id="@+id/pincode"/>
+</LinearLayout>
+</LinearLayout>
+<LinearLayout
+    android:orientation="vertical"
+    android:layout_height="0dp"
+    android:layout_width="match_parent"
+    android:layout_weight="15"
+    android:paddingRight="50dp"
+    android:paddingLeft="50dp"
+    android:gravity="top"
+    android:layout_marginBottom="0dp">
+    <TextView
+        android:background="@drawable/button_border"
+        android:layout_height="wrap_content"
+        android:layout_width="match_parent"
+        android:gravity="center"
+        android:padding="16dp"
+        android:layout_gravity="bottom"
+        android:textColor="#fafafa"
+        android:textSize="20dp"
+        android:letterSpacing="0.2"
+        android:id="@+id/btn_register"
+        android:layout_marginBottom="20dp"
+        android:textStyle="bold"
+        android:text="Add Hospital"/>
+
+</LinearLayout>
+
+</LinearLayout>

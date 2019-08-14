@@ -1,0 +1,99 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    package="com.appflowsolutions.kab">
+
+    <uses-permission android:name="android.permission.ACCESS_NETWORK_STATE" />
+    <uses-permission android:name="android.permission.INTERNET" />
+    <uses-permission android:name="android.permission.CALL_PHONE" />
+    <uses-permission android:name="android.permission.ACCESS_FINE_LOCATION" />
+    <uses-permission android:name="android.permission. ACCESS_COARSE_LOCATION" />
+
+    <application
+        android:name=".Activities.KABApp"
+        android:allowBackup="true"
+        android:icon="@mipmap/icon"
+        android:label="@string/app_name"
+        android:supportsRtl="true"
+        android:theme="@style/Theme.AppCompat.NoActionBar"
+        tools:replace="android:icon">
+        <activity
+            android:name=".Activities.SplashActivity"
+            android:screenOrientation="portrait"
+            android:theme="@style/SplashTheme">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+        <activity
+            android:name=".Activities.LoginActivity"
+            android:noHistory="true"
+            android:screenOrientation="portrait"
+            android:theme="@style/AppThemeNoActionBar"></activity>
+        <activity
+            android:name=".Activities.Register"
+            android:noHistory="true"
+            android:screenOrientation="portrait"
+            android:theme="@style/AppThemeNoActionBar" />
+        <activity
+            android:name=".Activities.Passcode"
+            android:label="@string/passcode"
+            android:noHistory="true"
+            android:screenOrientation="portrait" />
+        <activity
+            android:name=".Activities.AddContacts"
+            android:label="@string/add_contact"
+            android:noHistory="true"
+            android:screenOrientation="portrait" />
+        <activity
+            android:name=".Activities.MessageProfile"
+            android:label="Message"
+            android:noHistory="true"
+            android:screenOrientation="portrait" />
+        <activity
+            android:name=".Activities.EditMessage"
+            android:label="Update Message"
+            android:noHistory="true"
+            android:screenOrientation="portrait" />
+        <activity
+            android:name=".Activities.MainActivity"
+            android:label="@string/title_activity_main"
+            android:screenOrientation="portrait"
+            android:theme="@style/Theme.AppCompat.NoActionBar" />
+        <activity
+            android:name=".Activities.ContactProfile"
+            android:label="@string/profile"
+            android:noHistory="true"
+            android:screenOrientation="portrait" />
+        <activity
+            android:name=".Activities.HospitalProfile"
+            android:label="@string/hospital_profile"
+            android:noHistory="true"
+            android:screenOrientation="portrait" />
+        <activity
+            android:name=".Activities.EditContacts"
+            android:label="@string/update_Contact"
+            android:noHistory="true"
+            android:screenOrientation="portrait" />
+        <activity
+            android:name=".Activities.UserProfile"
+            android:label="@string/user_profile"
+            android:noHistory="true"
+            android:screenOrientation="portrait" />
+        <activity
+            android:name=".Activities.AddHospital"
+            android:label="@string/add_hospital"
+            android:noHistory="true"
+            android:screenOrientation="portrait" />
+        <activity
+            android:name=".Activities.EditUserProfile"
+            android:label="Edit Profile"
+            android:noHistory="true"
+            android:parentActivityName=".Activities.MainActivity"
+            android:screenOrientation="portrait" />
+        <activity android:name=".Activities.MessageActivity" />
+    </application>
+
+</manifest>

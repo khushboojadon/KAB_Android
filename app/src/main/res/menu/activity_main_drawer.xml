@@ -1,0 +1,35 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto">
+    <group android:checkableBehavior="single">
+        <item
+            android:id="@+id/nav_sos"
+            android:icon="@drawable/sos"
+            android:title="SOS"
+            />
+        <item
+            android:id="@+id/nav_ChangePassword"
+            android:icon="@drawable/message"
+            android:title="Change Password" />
+        <item
+            android:id="@+id/nav_awayResponse"
+            android:icon="@drawable/message"
+            android:title="Away users" />
+        <item
+            android:id="@+id/nav_setAway"
+            android:icon="@drawable/message"
+            android:title="Set Away" />
+        <item
+            android:id="@+id/nav_profile"
+            android:icon="@drawable/profile"
+            android:title="@string/profile" />
+        <item
+            android:id="@+id/nav_addHospital"
+            android:icon="@drawable/hospital"
+            android:title="Add Hospital" />
+        <item
+            android:id="@+id/nav_logout"
+            android:icon="@drawable/logout"
+            android:title="Logout" />
+    </group>
+</menu>

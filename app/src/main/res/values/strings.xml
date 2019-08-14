@@ -1,0 +1,22 @@
+<resources>
+    <string name="app_name">"KAB"</string>
+    <string name="passcode">"Passcode "</string>
+    <string name="profile">"Profile "</string>
+    <string name="hospital_profile">"Hospital Profile "</string>
+    <string name="title_activity_main">KAB</string>
+    <string name="user_profile">User Profile</string>
+    <string name="add_contact">Add Contact</string>
+    <string name="add_hospital">Add Hospital</string>
+    <string name="update_Contact">Update Contact</string>
+
+    <string name="navigation_drawer_open">Open navigation drawer</string>
+    <string name="navigation_drawer_close">Close navigation drawer</string>
+
+    <string name="action_settings">Settings</string>
+
+    <string name="soshelpText">SOS</string>
+    <string name="medicalhelpText">&#xf0fa;</string>
+
+    <!-- TODO: Remove or change this placeholder text -->
+    <string name="hello_blank_fragment">Hello blank fragment</string>
+</resources>
